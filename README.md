@@ -1,20 +1,7 @@
 # CHAOSS MICROTASKS
 Each folder has the ipynb and the ouput files. A brief description and relevant charts/tables of how to accomplish each of the following task has been included here.
-
-    Microtask 1: 
-    Produce a listing of the number of new committers per month, and the number of commits for each of them, as a table and as a CSV file. Use the GrimoireLab enriched index for git.
-
-    Microtask 2: 
-    Produce a chart showing the distribution of time-to-close (using the corresponding field in the GrimoireLab enriched index for GitHub issues) for issues already closed, and opened during the last six months.
-
-    Microtask 3: 
-    Produce a listing of repositories, as a table and as CSV file, with the number of commits authored, issues opened, and pull requests opened, during the last three months, ordered by the total number (commits plus issues plus pull requests).
-
-    Microtask 4: 
-    Perform any other analysis you may find interesting, based on GrimoireLab enriched indexes for git and GitHub repositories.
-
-
-# Task 1
+# Microtask 1
+Produce a listing of the number of new committers per month, and the number of commits for each of them, as a table and as a CSV file. Use the GrimoireLab enriched index for git.
 ### Project under analysis: CHAOSS
 
   - Used grimoirelab/full to make the database at port 9200
@@ -46,17 +33,22 @@ Each folder has the ipynb and the ouput files. A brief description and relevant 
 | 2018 | Jan   | 2     | 
 | 2018 | Mar   | 1     | 
 
-# Task 2
+# Microtask 2
+Produce a chart showing the distribution of time-to-close (using the corresponding field in the GrimoireLab enriched index for GitHub issues) for issues already closed, and opened during the last six months.
 ### Project: AutolabCLI
 
   - Used p2o to make the ES database
   - Used git enriched_index for manipulation
   - Main task: Chhosing which fields to work with
   - Time of close distribution for closed issues(Count aggregated): 
+
 ![alt text](https://user-images.githubusercontent.com/20010355/37891218-1657037e-30f1-11e8-9eb1-a84421ce855f.png)
+  
   - Time open for open issues: 
+
 ![alt text](https://user-images.githubusercontent.com/20010355/37891219-168f16a6-30f1-11e8-885a-fd348557cea4.png)
-# Task 3
+# Microtask 3
+Produce a listing of repositories, as a table and as CSV file, with the number of commits authored, issues opened, and pull requests opened, during the last three months, ordered by the total number (commits plus issues plus pull requests).
 ### Project: CHAOSS
 
   - Sir Perceval's Quest: 
@@ -91,6 +83,7 @@ Each folder has the ipynb and the ouput files. A brief description and relevant 
 | 23    | 277     | 22     | 82            | grimoirelab-perceval         | 381   | 
 
 # Task 4: To do
+Perform any other analysis you may find interesting, based on GrimoireLab enriched indexes for git and GitHub repositories.
 
   - Will be completed before GSoC deadline
   - Possible using the git enriched index for this one as we have done 2 tasks using github index
@@ -103,4 +96,3 @@ Each folder has the ipynb and the ouput files. A brief description and relevant 
 
 > Chaoss isn't a pit. Chaoss is a ladder.
 > -Lord Baelish
-
